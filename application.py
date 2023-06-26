@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import pymongo
 
+
 application = Flask(__name__) # initializing a flask app
 app=application
 
